@@ -46,10 +46,5 @@ namespace QuizCraft.Views
 				Navigation.RemovePage(this);
 			}
 		}
-
-		private void Rate_OnTouch(object sender, SKTouchEventArgs e)
-		{
-			//todo supprimer la modif de note au toucher
-		}
 	}
 }
