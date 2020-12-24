@@ -1,9 +1,7 @@
 ﻿using System;
 using QuizCraft.ViewModels.Question;
 using SkiaRate;
-using SkiaSharp.Views.Forms;
 using Xamarin.Forms;
-using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
 
 namespace QuizCraft.Views
