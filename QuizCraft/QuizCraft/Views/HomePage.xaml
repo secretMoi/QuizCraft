@@ -12,7 +12,7 @@
 			
 			<Image Source="minecraft.png" HeightRequest="300" Aspect="AspectFit" />
 			
-			<Button Text="Nouvelle partie" Clicked="Button_OnClicked" />
+			<Button Text="Nouvelle partie" VerticalOptions="EndAndExpand" Clicked="Button_OnClicked" />
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

@@ -3,6 +3,7 @@ using QuizCraft.ViewModels.Question;
 using SkiaRate;
 using SkiaSharp.Views.Forms;
 using Xamarin.Forms;
+using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
 
 namespace QuizCraft.Views
@@ -16,7 +17,7 @@ namespace QuizCraft.Views
 		public QuestionPage()
 		{
 			InitializeComponent();
-
+			
 			BindingContext = _viewModel;
 			Rate.Path = PathConstants.Heart;
 		}
@@ -29,7 +30,10 @@ namespace QuizCraft.Views
 				_questionFinished = _viewModel.ValidateAnswer(answer);
 
 				if (!_questionFinished)
+				{
+					Rate.Value -= 1;
 					_viewModel.WrongAnswer();
+				}
 				else
 				{
 					_viewModel.CorrectAnswer();
