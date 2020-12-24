@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             xmlns:skiaRate="clr-namespace:SkiaRate;assembly=SkiaRate.Forms"
+             x:Class="QuizCraft.Views.QuestionPage"
+             Title="{Binding Title}">
+	<ContentPage.Content>
+		<StackLayout>
+			
+			<Frame BackgroundColor="Coral">
+				<Label Text="{Binding QuestionData.Question}" FontSize="20" />
+			</Frame>
+			
+			<controls:SelectionView Padding="10" x:Name="CurrentResponse"
+				SelectionType="RadioButton" ItemsSource="{Binding QuestionData.Answers}" />
+			
+			<Label
+				Margin="10"
+				HorizontalTextAlignment="Center" 
+					Text="{Binding QuestionData.Remark}" FontSize="18"
+			       TextColor="{Binding QuestionData.RemarkColor}"
+			       IsVisible="{Binding QuestionData.DisplayRemark}" />
+			
+			<Image Source="{Binding QuestionData.ImagePath}" HeightRequest="250" Aspect="AspectFit" VerticalOptions="EndAndExpand" />
+			
+			<skiaRate:RatingView Touch="Rate_OnTouch" x:Name="Rate" ColorOn="Red" Count="4" Value="{Binding QuestionData.Stars}" />
+			
+			<Button x:Name="ButtonValider" 
+				Text="Valider" Clicked="Button_OnClicked" VerticalOptions="EndAndExpand" Margin="0,10,0,0" />
+			
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

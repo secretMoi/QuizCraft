@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LVJ/nb/z0y4gjq1UHvCW8uWZc80jTmpVbz/IIh6G9u5eexr2LkE/m0cpchWYshmU7LK21q+T/ZVxchipnYF8Uw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\winmo\\RiderProjects\\QuizCraft\\QuizCraft\\QuizCraft.iOS\\QuizCraft.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\winmo\\.nuget\\packages\\xamarin.forms\\4.4.0.991640\\xamarin.forms.4.4.0.991640.nupkg.sha512"
+  ],
+  "logs": []
+}

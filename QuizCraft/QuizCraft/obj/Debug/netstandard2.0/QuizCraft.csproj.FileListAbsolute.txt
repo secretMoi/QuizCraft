@@ -1,0 +1,14 @@
+C:\Users\winmo\RiderProjects\QuizCraft\QuizCraft\QuizCraft\bin\Debug\netstandard2.0\QuizCraft.deps.json
+C:\Users\winmo\RiderProjects\QuizCraft\QuizCraft\QuizCraft\bin\Debug\netstandard2.0\QuizCraft.dll
+C:\Users\winmo\RiderProjects\QuizCraft\QuizCraft\QuizCraft\bin\Debug\netstandard2.0\QuizCraft.pdb
+C:\Users\winmo\RiderProjects\QuizCraft\QuizCraft\QuizCraft\obj\Debug\netstandard2.0\QuizCraft.csprojAssemblyReference.cache
+C:\Users\winmo\RiderProjects\QuizCraft\QuizCraft\QuizCraft\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\winmo\RiderProjects\QuizCraft\QuizCraft\QuizCraft\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\winmo\RiderProjects\QuizCraft\QuizCraft\QuizCraft\obj\Debug\netstandard2.0\QuizCraft.AssemblyInfoInputs.cache
+C:\Users\winmo\RiderProjects\QuizCraft\QuizCraft\QuizCraft\obj\Debug\netstandard2.0\QuizCraft.AssemblyInfo.cs
+C:\Users\winmo\RiderProjects\QuizCraft\QuizCraft\QuizCraft\obj\Debug\netstandard2.0\QuizCraft.csproj.CoreCompileInputs.cache
+C:\Users\winmo\RiderProjects\QuizCraft\QuizCraft\QuizCraft\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\winmo\RiderProjects\QuizCraft\QuizCraft\QuizCraft\obj\Debug\netstandard2.0\QuizCraft.dll
+C:\Users\winmo\RiderProjects\QuizCraft\QuizCraft\QuizCraft\obj\Debug\netstandard2.0\QuizCraft.pdb
+C:\Users\winmo\RiderProjects\QuizCraft\QuizCraft\QuizCraft\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\winmo\RiderProjects\QuizCraft\QuizCraft\QuizCraft\obj\Debug\netstandard2.0\Views\QuestionPage.xaml.g.cs

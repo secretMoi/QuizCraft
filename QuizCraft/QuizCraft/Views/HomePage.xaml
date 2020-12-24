@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QuizCraft.Views.HomePage">
+	<ContentPage.Content>
+		<StackLayout Padding="10">
+			<Image Source="logo.png" HeightRequest="100" Aspect="AspectFit" />
+			
+			<Label TextColor="Blue" FontAttributes="Bold" FontSize="22" HorizontalTextAlignment="Center"
+			       Text="Réponds à 5 questions relatives à minecraft en un minimum d'essais !" />
+			
+			<Image Source="minecraft.png" HeightRequest="300" Aspect="AspectFit" />
+			
+			<Button Text="Nouvelle partie" Clicked="Button_OnClicked" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
